@@ -1,0 +1,18 @@
+[
+	{
+		"name": "test",
+		"commands": ["echo 'your mom'"],
+		"delay": 0
+	},
+	{
+		"name": "h",
+		"commands": ["df -h", "python", "print('hello world')"],
+		"delay": 10
+	},
+	{
+		"command": "touch /tmp/test"
+	},
+	{
+		"command": "free"
+	}
+]

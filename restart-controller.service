@@ -1,0 +1,10 @@
+[Unit]
+Description="restart-controller, run commands after starting"
+
+[Service]
+Type=idle
+StandardOutput=journal
+ExecStart=/usr/local/bin/restart-controller
+
+[Install]
+WantedBy=multi-user.target
